@@ -14,7 +14,7 @@
         <div class="inicio">
     <a href="#banner"><i class="fas fa-home"></i> Início</a>
     <a href="#bebe"><i class="fas fa-syringe"></i> Vacinas</a>
-    <a href="#"><i class="fas fa-phone"></i> Contato</a>
+    <a href="#contato"><i class="fas fa-phone"></i> Contato</a>
 </div>
     </div>
     <div id="banner">
@@ -23,7 +23,7 @@
     </div>
     <div class="into">
         <p>Este site se trata de um projeto de extensão da faculdade Unopar - Anhaguera, um site desenvolvido para ajudar a comunidade com as informações sobre todas as vacinas que fazem parte do calendário nacional de vacinas.</p>
-        <p>Este projeto é focado no objetivo 3 do <a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">desenvolvimento sustentável da Onu</a>, que visa a saúde e o bem-estar.</p>
+        <p>Este projeto é focado no objetivo 3 do <a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">desenvolvimento sustentável da Onu</a>, que visa a saúde e o bem-estar da população.</p>
     </div>
     <div class="text">
         <p>
@@ -239,33 +239,33 @@
     <script>
     document.addEventListener('DOMContentLoaded', function () {
         const headings = document.querySelectorAll('h3');
-    
+
         headings.forEach(function (h3) {
             const btn = document.createElement('button');
             const img = document.createElement('img');
-    
+
             img.src = 'img/mostrar.png'; // imagem inicial (ex: seta para baixo)
             img.alt = 'Mostrar';
             img.style.width = '16px';
             img.style.height = '16px';
-    
+
             btn.appendChild(img);
             btn.style.marginLeft = '10px';
             btn.style.padding = '2px 6px';
             btn.style.border = 'none';
             btn.style.background = 'transparent';
             btn.style.cursor = 'pointer';
-    
+
             h3.appendChild(btn);
-    
+
             const nextP = h3.nextElementSibling;
             if (nextP && nextP.tagName.toLowerCase() === 'p') {
                 nextP.style.display = 'none';
-    
+
                 btn.addEventListener('click', function () {
                     const isHidden = nextP.style.display === 'none';
                     nextP.style.display = isHidden ? 'block' : 'none';
-    
+
                     // Troca de imagem conforme visibilidade
                     img.src = isHidden ? 'img/menos.png' : 'icone-abrir.png';
                     img.alt = isHidden ? 'Esconder' : 'Mostrar';
@@ -276,6 +276,23 @@
     </script>
 
 
+        <div id="contato">
+                <img class="d-logo-desktop" src="img/logo-ouvsus.png" alt="OuvSUS - Disque 136">
+                <div class="span">
+                <span>
+                    Teleatendente: de segunda-feira <br>
+                    a sexta-feira, das 8h às 20h,<br>
+                    e aos sábados, das 8h às 18h.
+                </span>
+                <img src="img/familia_gotinha_png.png" alt="gotinha">
+                </div>
+    </div>
 
+    
 </body>
+
+<footer>
+    <span>Desenvolvido por <a href="https://www.linkedin.com/in/maikon-leite/" target="_blank">Maikon Leite</a></span>
+</footer>
+
 </html>
