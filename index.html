@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Infovacinas</title>
 </head>
 <body>
     <div class="links">
-        <a href="#banner">Inicio</a>
-        <a>Vacinas</a>
-        <a>Contato</a>
+        <img src="https://www.cambira.pr.gov.br/wp-content/uploads/2025/02/Cambira_Brasao.png" alt="logo">
+        <div class="inicio">
+    <a href="#banner"><i class="fas fa-home"></i> Início</a>
+    <a href="#bebe"><i class="fas fa-syringe"></i> Vacinas</a>
+    <a href="#"><i class="fas fa-phone"></i> Contato</a>
+</div>
     </div>
-    <div class="banner">
+    <div id="banner">
     <h1>INFOVACINAS</h1>
     <P>"A vacinação é uma das maneiras mais eficazes de proteger a sua saúde e a da comunidade em que vivemos".</P>
     </div>
@@ -27,8 +33,8 @@
             A política de vacinação é responsabilidade do <a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/pni" target="_blank">Programa Nacional de Imunizações (PNI)</a> do Ministério da Saúde. Estabelecido em 1973, o PNI desempenha um papel fundamental na promoção da saúde da população brasileira. Por meio do programa, o governo federal disponibiliza gratuitamente no <a href="https://www.gov.br/saude/pt-br/sus" target="_blank">Sistema Único de Saúde - SUS</a> 47 imunobiológicos: 30 vacinas, 13 soros e 4 imunoglobulinas. Essas vacinas incluem tanto as presentes no calendário nacional de vacinação quanto as indicadas para grupos em condições clínicas especiais, como pessoas com HIV ou indivíduos em tratamento de algumas doenças (câncer, insuficiência renal, entre outras), aplicadas nos <a href="https://www.gov.br/saude/pt-br/vacinacao/grupos-especiais" target="_blank">Centros de Referência para Imunobiológicos Especiais (CRIE)</a>Centros, e inclui também as vacinas COVID-19 e outras administradas em situações específicas.
             </p>
     </div>
-    <img src="img/3093243-800x445.png" alt="bebe">
-    <div class="bebe">
+    <img class="gotinha" src="img/3093243-800x445.png" alt="bebe">
+    <div id="bebe">
         <h1>Criança</h1>
         <h3>Ao nascer</h3>
         <p>
@@ -143,6 +149,7 @@
             Doenças evitadas: Papilomavírus Humano 6, 11, 16 e 18.<br>
             Obs.: Para vítimas de abuso sexual, de 9 a 14 anos a recomendação é de duas doses. De 15 a 45, a recomendação é de três doses, considerando o histórico vacinal contra o HPV. Pessoas com HIV/aids, transplantadas de órgãos sólidos e de medula óssea, pacientes com câncer e aqueles com papilomatose respiratória recorrente (PPR) devem tomar três doses, com prescrição médica. Para menores de 18 anos, é necessário consentimento dos pais ou responsáveis para a vacinação contra o HPV como tratamento adjuvante da PPR. O intervalo entre as doses deve ser confirmado na UBS.
         </p>
+        <a id="PDF" href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/calendario-nacional-de-vacinacao-crianca" target="_blank">Baixar PDF</a>
     </div>
     <div class="adolescente">
         <h1>Adolescente</h1>
@@ -164,7 +171,9 @@
             Obs.: Para vítimas de abuso sexual, de 9 a 14 anos a recomendação é de duas doses. De 15 a 45, a recomendação é de três doses, considerando o histórico vacinal contra o HPV. Pessoas com HIV/aids, transplantadas de órgãos sólidos e de medula óssea, pacientes com câncer e aqueles com papilomatose respiratória recorrente (PPR) devem tomar três doses, com prescrição médica. Para menores de 18 anos, é necessário consentimento dos pais ou responsáveis para a vacinação contra o HPV como tratamento adjuvante da PPR. O intervalo entre as doses deve ser confirmado na UBS.<br>
             Vacina meningocócica ACWY (MenACWY- Conjugada) (Uma dose).<br><br>
             Doenças evitadas: meningite meningocócica sorogrupos A, C, W e Y.
-        </p>       
+        </p>  
+        <a id="PDF" href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/calendario-nacional-de-vacinacao-adolescente" target="_blank">Baixar PDF</a>
+     
     </div>
     <div class="adulto">
         <h1>Adulto e Idoso</h1>
@@ -180,11 +189,92 @@
             Doenças evitadas: Papilomavírus Humano 6, 11, 16 e 18.<br>
             Obs.: Para vítimas de abuso sexual, de 9 a 14 anos a recomendação é de duas doses. De 15 a 45, a recomendação é de três doses, considerando o histórico vacinal contra o HPV. Pessoas com HIV/aids, transplantadas de órgãos sólidos e de medula óssea, pacientes com câncer e aqueles com papilomatose respiratória recorrente (PPR) devem tomar três doses, com prescrição médica. Para menores de 18 anos, é necessário consentimento dos pais ou responsáveis para a vacinação contra o HPV como tratamento adjuvante da PPR. O intervalo entre as doses deve ser confirmado na UBS.
         </p>       
-        
+        <h3>A partir de 18 anos</h3>
+        <p>
+            Vacina Difteria, Tétano, Pertussis (dTpa - acelular) (Uma dose - Reforço a cada 10 ou 5 anos, em caso de ferimentos graves | Recomendadas para profissionais da saúde, parteiras tradicionais e estagiários da saúde, que atuam em maternidades e unidades de internação neonatal - UTI/UCI convencional e UCI Canguru, atendendo recém-nascidos).<br>
+            Doenças evitadas: Difteria, Tétano e Coqueluche
+        </p>
+        <h3>20 a 29 anos</h3>
+        <p>
+            Vacina Tríplice viral (Duas doses).<br>
+            Doenças evitadas: Sarampo, Caxumba e Rubéola
+        </p>
+        <h3>30 a 59 anos</h3>
+        <p>
+            Vacina Tríplice viral (Uma dose - Verificar situação vacinal anterior).<br>
+            Doenças evitadas: Sarampo, Caxumba e Rubéola
+        </p>
+        <h3>A partir de 60 anos</h3>
+        <p>
+            Vacina Hepatite B (HB - recombinante) (três doses, de acordo com histórico vacinal).<br>
+            Doenças evitadas: Hepatite B.<br><br>
+            Vacina Difteria e Tétano (dT) (três doses, de acordo com histórico vacinal | Reforço a cada 10 anos ou a cada 5 anos em caso de ferimentos graves).<br>
+            Doenças evitadas: Difteria e Tétano.<br><br>
+            Vacina Febre Amarela (VFA - atenuada).<br>
+            Doenças evitadas: Febre Amarela.<br>
+            Obs.: Pessoas a partir de 60 anos, que nunca foram vacinadas ou sem comprovante de vacinação, o serviço de saúde deverá avaliar a pertinência e o risco X benefício da vacinação.
+            Vacina Difteria, Tétano, Pertussis (dTpa - acelular) (Uma dose - Reforço a cada 10 ou 5 anos, em caso de ferimentos graves | Recomendadas para profissionais da saúde, parteiras tradicionais e estagiários da saúde, que atuam em maternidades e unidades de internação neonatal - UTI/UCI convencional e UCI Canguru, atendendo recém-nascidos)
+            Doenças evitadas: Difteria, Tétano e Coqueluche
+        </p>
+        <a id="PDF" href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/calendario-nacional-de-vacinacao-adulto-e-idoso" target="_blank">Baixar PDF</a>
     </div>
     <div class="gestante">
-        
+        <h1>Gestantes</h1>
+        <h3>A qualquer tempo no pré-natal</h3>
+        <p>
+            Vacina Hepatite B (HB - recombinante) (Iniciar ou completar 3 doses).<br>
+            Doenças evitadas: Hepatite B.<br><br>
+            Vacina Difteria e Tétano (dT) (Iniciar ou completar o esquema de 3 doses com vacinas contendo os toxoides de difteria e tétano).<br>
+            Doenças evitadas: Difteria e Tétano.<br><br>
+            Obs.: Observar a indicação da vacina dTpa a partir da 20ª semana da gestação.
+        </p>
+        <h3>20ª semana de gravidez e puérperas até 45 dias</h3>
+        <p>
+            Vacina Difteria, Tétano, Pertussis (dTpa - acelular) (1 dose a partir da 20ª semana, a cada gestação).<br>
+            Doenças evitadas: Difteria, Tétano e Coqueluche.<br><br>
+            Obs.: Se não administrada durante o período gestacional, a dose da vacina dTpa deve ser administrada no puerpério o mais breve possível, até 45 dias pós-parto. A indicação de uso da vacina dTpa, a cada gestação, mesmo para as gestantes que possuem o esquema vacinal completo contra essas doenças, tem por objetivo a prevenção contra o tétano neonatal e a coqueluche em recém-nascidos, até que o bebê possa iniciar o esquema vacinal aos 2 meses de vida.
+        </p>
+        <a id="PDF" href="https://www.gov.br/saude/pt-br/vacinacao/arquivos/calendario-nacional-de-vacinacao-gestante" target="_blank">Baixar PDF</a>
     </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const headings = document.querySelectorAll('h3');
+    
+        headings.forEach(function (h3) {
+            const btn = document.createElement('button');
+            const img = document.createElement('img');
+    
+            img.src = 'img/mostrar.png'; // imagem inicial (ex: seta para baixo)
+            img.alt = 'Mostrar';
+            img.style.width = '16px';
+            img.style.height = '16px';
+    
+            btn.appendChild(img);
+            btn.style.marginLeft = '10px';
+            btn.style.padding = '2px 6px';
+            btn.style.border = 'none';
+            btn.style.background = 'transparent';
+            btn.style.cursor = 'pointer';
+    
+            h3.appendChild(btn);
+    
+            const nextP = h3.nextElementSibling;
+            if (nextP && nextP.tagName.toLowerCase() === 'p') {
+                nextP.style.display = 'none';
+    
+                btn.addEventListener('click', function () {
+                    const isHidden = nextP.style.display === 'none';
+                    nextP.style.display = isHidden ? 'block' : 'none';
+    
+                    // Troca de imagem conforme visibilidade
+                    img.src = isHidden ? 'img/menos.png' : 'icone-abrir.png';
+                    img.alt = isHidden ? 'Esconder' : 'Mostrar';
+                });
+            }
+        });
+    });
+    </script>
+
 
 
 </body>
