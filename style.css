@@ -1,9 +1,7 @@
-
-
-body{
+body {
     margin-left: 20px;
     margin-right: 20px;
-    background: url('img/mini.png') center center no-repeat fixed; 
+    background: url('img/mini.png') center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,43 +9,41 @@ body{
     opacity: 0.9;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     text-align: center;
     font-size: 38px;
 }
 
-h1{
+h1 {
     background-color: #07813b;
     font-size: 60px;
     font-style: italic;
     border-radius: 20px;
 }
 
-
-
-p{
+p {
     text-align: center;
     font-size: 22px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.links{
+.links {
     text-decoration: none;
     height: 120px;
     background-color: #07813b;
     text-align: center;
 }
 
-.links img{
+.links img {
     margin-bottom: 25px;
 }
 
-.inicio{
+.inicio {
     margin-top: -20px;
 }
 
-#PDF{   
+#PDF {
     color: black;
     background-color: #e9fa02;
     display: flow-root;
@@ -57,29 +53,101 @@ p{
     border-radius: 20px;
     height: 30px;
     padding-top: 10px;
-   
 }
 
-.gotinha{
+.gotinha {
     height: 400px;
-   width: 100%;
+    width: 100%;
 }
 
-#contato{
+#contato {
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
     font-size: 18px;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 50px;
-
 }
 
-footer a{
+footer a {
     text-decoration: none;
     font-weight: bold;
-   
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        background-position: fixed;
+    }
+
+    h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    h2, h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .gotinha {
+        height: auto;
+        max-height: 250px;
+    }
+
+    #gotinhas{
+        max-width: 250px;
+    }
+
+    .links {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    #PDF {
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #contato {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .gotinha {
+        max-height: 200px;
+    }
+
+    #PDF {
+        font-size: 14px;
+    }
+
+    #contato {
+        font-size: 14px;
+    }
 }
