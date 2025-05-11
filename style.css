@@ -1,0 +1,59 @@
+
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 38px;
+}
+
+h1{
+    background-color: #07813b;
+    font-size: 60px;
+    font-style: italic;
+    border-radius: 20px;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.links{
+    text-decoration: none;
+    height: 120px;
+    background-color: #07813b;
+    text-align: center;
+}
+
+.links img{
+    margin-bottom: 25px;
+}
+
+.inicio{
+    margin-top: -20px;
+}
+
+#PDF{   
+    color: black;
+    background-color: #e9fa02;
+    display: flow-root;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 30px;
+   
+}
+
+.gotinha{
+    height: 400px;
+   width: 100%;
+}
